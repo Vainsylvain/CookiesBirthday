@@ -48,10 +48,23 @@ p.m-4.responsive.text {
     object-fit: contain;
 }
 
+@media screen and (max-width: 1500px) {
+    .horizontalImg {
+        height: 20em;
+        width: 20em;
+        margin-bottom: 1px;
+    }
+    p.m-4.responsive.text {
+        all: revert;
+        color: black;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .horizontalImg {
-        height: 13em;
-        width: 20em;
+        all: revert;
+        height: 12em;
+        width: 17em;
         margin-bottom: 1px;
     }
     .imgContainerHorizontal {
@@ -78,4 +91,20 @@ p.m-4.topping {
 h2.mb-3.t {
     color: black;
     margin-top: 1.5em;
+}
+
+div#cf.anchor {
+    background-color: lightgrey;
+}
+
+div#cf.anchor>div {
+    padding-top: 5px;
+}
+
+div#ccf.anchor {
+    background-color: lightgrey;
+}
+
+div#ccf.anchor>div {
+    padding-top: 5px;
 }
