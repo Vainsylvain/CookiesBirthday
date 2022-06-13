@@ -13,8 +13,8 @@ p {
     font-family: sans-serif;
 }
 
-#white {
-    background-color: whitesmoke;
+.white {
+    background-color: lightgrey;
 }
 
 .black {
@@ -27,6 +27,12 @@ p {
 
 .imgContainerHorizontal {
     height: 20em;
+}
+
+p.m-4.responsive.text {
+    color: gold;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px solid black;
 }
 
 .verticalImg {
@@ -48,10 +54,31 @@ p {
         width: 20em;
         margin-bottom: 1px;
     }
-    p.m-4.responsive {
+    /* p.m-4.responsive {
         margin-top: 2% !important;
-    }
+    } */
     .imgContainerHorizontal {
         height: 13.4587em;
     }
+    p.m-4.responsive.text {
+        color: black;
+        font-weight: bolder;
+    }
+}
+
+.anchor {
+    height: 2em;
+}
+
+p.m-4.topping {
+    color: black;
+}
+
+.coeur {
+    color: red;
+}
+
+h2.mb-3.t {
+    color: black;
+    margin-top: 1.5em;
 }
