@@ -54,15 +54,12 @@ p.m-4.responsive.text {
         width: 20em;
         margin-bottom: 1px;
     }
-    /* p.m-4.responsive {
-        margin-top: 2% !important;
-    } */
     .imgContainerHorizontal {
         height: 13.4587em;
     }
     p.m-4.responsive.text {
+        all: revert;
         color: black;
-        font-weight: bolder;
     }
 }
 
